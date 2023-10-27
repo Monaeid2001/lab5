@@ -9,7 +9,7 @@ scanf("%d",&x);
 scanf("%d",&y);
 printf("the two number before swapping %d %d\n",x,y);
 swap(&x,&y);
-printf("the two number before swapping %d %d",x,y);
+printf("the two number after swapping %d %d",x,y);
 return;
 }
 int swap(int *ptr1,int *ptr2){
